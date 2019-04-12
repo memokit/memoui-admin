@@ -1,0 +1,32 @@
+
+.content-body {
+  min-height: calc(100vh - 85px)!important;
+}
+
+@media screen and (max-width: 768px) {
+  .content-body {
+    min-height: calc(100vh - 64px)!important;
+  }
+}
+
+
+.pointer {
+	cursor: pointer;
+}
+
+.mat-form-field, .mat-select-value, .mat-option-text, .mat-radio-label-content {
+	// font-family: $font-family-body!important;
+}
+
+.file-actions {
+  button.btn {
+    padding: 0px 10px;
+    font-size: 25px;
+    margin: 1px 1px;
+    line-height: 1;
+    span {
+      line-height: 1;
+      font-size: 25px;
+    }
+  }
+}
