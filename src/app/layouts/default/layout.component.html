@@ -2,7 +2,7 @@
     <nz-affix>
         <nz-header>
             <div class="logo"></div>
-            <ul nz-menu [nzTheme]="'dark'" [nzMode]="'horizontal'" style="line-height: 65px;">
+            <ul nz-menu [nzTheme]="'dark'" [nzMode]="'horizontal'" >
                 <li nz-menu-item>nav 1</li>
                 <li nz-menu-item>nav 2</li>
                 <li nz-menu-item>nav 3</li>
@@ -11,11 +11,11 @@
     </nz-affix>
 
     <nz-layout>
-        <nz-sider nzCollapsible [(nzCollapsed)]="isCollapsed" [nzWidth]="width" [nzReverseArrow]="isReverseArrow">
+        <nz-sider nzCollapsible [(nzCollapsed)]="isCollapsed" [nzWidth]="width" [nzReverseArrow]="isReverseArrow" style="background:#fff">
 
             <div class="left-side">
                 <perfect-scrollbar [config]="perfectScrollbConfig">
-                    <ul nz-menu [nzTheme]="'dark'" [nzMode]="'inline'" [nzInlineCollapsed]="isCollapsed"
+                    <ul nz-menu [nzMode]="'inline'" [nzInlineCollapsed]="isCollapsed"
                         style="height:100%">
                         <li nz-submenu>
                             <span title><i nz-icon type="user"></i><span class="nav-text">User</span></span>

@@ -2,11 +2,11 @@
  *
  *   MaterialLab - Bootstrap + Material Design Admin Theme
 */
-$materialDesignIconic: 'Material-Design-Iconic-Font'!important;
-$materialDesignIcons: "Material Icons"!important;
-$font-family-header: 'Prompt', sans-serif!important;
-$font-family-body: 'Prompt', sans-serif!important;
-$font-family-handwriting: 'Covered By Your Grace', cursive!important;
+$materialDesignIconic: 'Material-Design-Iconic-Font'!default;
+$materialDesignIcons: "Material Icons"!default;
+$font-family-header: 'Prompt', sans-serif!default;
+$font-family-body: 'Prompt', sans-serif!default;
+$font-family-handwriting: 'Covered By Your Grace', cursive!default;
 
 //== Import Material Design Colors
 @import '_var-material-colors'; //== Skin Colors
