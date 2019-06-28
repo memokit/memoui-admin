@@ -63,10 +63,19 @@
                 }
               ]
             },
+            "en": {
+              "aot": true,
+              "outputPath": "dist/browser/en",
+              "baseHref": "/en/",
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
             "th": {
               "aot": true,
               "outputPath": "dist/browser/th",
-              "baseHref": "/th/",
+              "baseHref": "/",
               "i18nFile": "src/locale/messages.th.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "th",
@@ -82,6 +91,9 @@
           "configurations": {
             "production": {
               "browserTarget": "memoui-admin:build:production"
+            },
+            "en": {
+              "browserTarget": "memoui-admin:build:en"
             },
             "th": {
               "browserTarget": "memoui-admin:build:th"
